@@ -2961,7 +2961,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://akizukidenshi.com/catalog/g/g105347/"
+			(property "Datasheet" "https://akizukidenshi.com/catalog/g/g117550/"
 				(at -50.8 5.08 0)
 				(effects
 					(font
@@ -3192,7 +3192,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at 5.08 7.62 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -3210,7 +3210,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 7.62 180)
+					(at -5.08 7.62 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -3264,7 +3264,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -3282,7 +3282,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -6404,6 +6404,12 @@
 		(uuid "52071599-d302-4d69-87fb-4a9e0f1f15e1")
 	)
 	(junction
+		(at 210.82 154.305)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5228c790-211f-4176-93e4-a6ba1502aa0a")
+	)
+	(junction
 		(at 95.25 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6414,6 +6420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53e4e1f1-cce0-44af-9733-bea17db27f09")
+	)
+	(junction
+		(at 224.79 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57d255f6-06f5-4391-a6d2-984e0fa58b05")
 	)
 	(junction
 		(at 186.69 137.16)
@@ -6588,10 +6600,6 @@
 	(no_connect
 		(at 41.91 165.1)
 		(uuid "1c1d7613-db1c-4e9f-9cb8-6a78aaccec27")
-	)
-	(no_connect
-		(at 59.69 71.12)
-		(uuid "1d77a982-3eb6-4369-9922-dc6e3868f4e2")
 	)
 	(no_connect
 		(at 34.29 50.8)
@@ -6849,6 +6857,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 160.655) (xy 224.79 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2b4832-2a68-44ca-a7d8-d98288eed619")
+	)
+	(wire
+		(pts
 			(xy 152.4 176.53) (xy 154.94 176.53)
 		)
 		(stroke
@@ -6889,7 +6907,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 156.21) (xy 189.23 156.21)
+			(xy 175.895 146.685) (xy 178.435 146.685)
 		)
 		(stroke
 			(width 0)
@@ -7139,6 +7157,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 154.305) (xy 210.82 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d09a994-c340-4c01-abcd-9a62f56435fb")
+	)
+	(wire
+		(pts
 			(xy 186.69 121.92) (xy 187.96 121.92)
 		)
 		(stroke
@@ -7229,6 +7257,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 154.305) (xy 210.82 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d6d666-f0f9-439b-8077-d815c0b6b8f5")
+	)
+	(wire
+		(pts
 			(xy 85.09 76.2) (xy 86.36 76.2)
 		)
 		(stroke
@@ -7289,7 +7327,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 156.21) (xy 198.12 157.48)
+			(xy 187.325 146.685) (xy 187.325 147.955)
 		)
 		(stroke
 			(width 0)
@@ -7499,6 +7537,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 160.02) (xy 224.79 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538507aa-eb8b-435c-b8db-ae09f1dda478")
+	)
+	(wire
+		(pts
 			(xy 129.54 129.54) (xy 129.54 130.81)
 		)
 		(stroke
@@ -7549,6 +7597,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 160.02) (xy 210.82 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da7a3fa-2fbd-425b-adb4-ed213114f8b4")
+	)
+	(wire
+		(pts
 			(xy 250.19 81.28) (xy 250.19 74.93)
 		)
 		(stroke
@@ -7566,6 +7624,16 @@
 			(type default)
 		)
 		(uuid "5f6b4d5a-ed12-46dd-bb40-9a62ab144fec")
+	)
+	(wire
+		(pts
+			(xy 218.44 160.02) (xy 224.79 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601e1a63-58a2-47cc-8719-eeecd9c9878b")
 	)
 	(wire
 		(pts
@@ -7939,16 +8007,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 148.59) (xy 224.79 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e266ad-c612-43b5-9b51-7480c07caf73")
-	)
-	(wire
-		(pts
 			(xy 62.23 147.32) (xy 62.23 149.86)
 		)
 		(stroke
@@ -7996,6 +8054,16 @@
 			(type default)
 		)
 		(uuid "88e572b7-2b34-46f1-a649-2827a9954171")
+	)
+	(wire
+		(pts
+			(xy 201.295 154.305) (xy 201.93 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f97394-bcc6-4aa6-854f-b67e60b496d1")
 	)
 	(wire
 		(pts
@@ -8146,6 +8214,16 @@
 			(type default)
 		)
 		(uuid "9b7149df-866f-42ad-b5bf-9bb340744b3a")
+	)
+	(wire
+		(pts
+			(xy 224.79 149.225) (xy 224.79 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbfeda9-64d7-4b57-8865-b3bc2c1adc03")
 	)
 	(wire
 		(pts
@@ -8349,7 +8427,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 156.21) (xy 196.85 156.21)
+			(xy 187.325 146.685) (xy 186.055 146.685)
 		)
 		(stroke
 			(width 0)
@@ -9259,7 +9337,7 @@
 	)
 	(global_label "LED1"
 		(shape input)
-		(at 186.69 156.21 180)
+		(at 175.895 146.685 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9269,7 +9347,7 @@
 		)
 		(uuid "15a5e428-2c3c-4ecc-9fd5-60d8cff0632b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.0482 156.21 0)
+			(at 168.2532 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,28 +9621,6 @@
 			)
 		)
 	)
-	(global_label "SW"
-		(shape input)
-		(at 224.79 149.86 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7749b172-eb2b-4777-8f49-22b183f753cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.79 155.5061 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART_RX"
 		(shape input)
 		(at 34.29 71.12 180)
@@ -9763,6 +9819,28 @@
 			)
 		)
 	)
+	(global_label "emergency_stop_LED"
+		(shape input)
+		(at 201.295 154.305 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2f9845d-20fd-4958-b3e5-bbbb71ebe727")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.7762 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_opt_supply_SW"
 		(shape input)
 		(at 59.69 55.88 0)
@@ -9886,6 +9964,28 @@
 		(uuid "d3fb5ad8-0ede-4202-b5ba-f114b9facd61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.3986 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "emergency_stop_LED"
+		(shape input)
+		(at 59.69 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de8b544f-95bf-4d15-824e-eadaded9e553")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.2088 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,6 +10418,82 @@
 			(project "remote-ems-transmitter"
 				(path "/bf945d47-61d6-4d37-a75d-36a9cc847c22"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 222.25 154.305 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bb7d4bb-1949-47f4-8fe0-e3c5f05af1e2")
+		(property "Reference" "Q2"
+			(at 227.7364 153.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 227.7364 155.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 227.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 222.25 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6913d7af-3241-45c5-8b23-a84e1bde5b3a")
+		)
+		(pin "2"
+			(uuid "171d3ff2-7af2-446a-bae1-c69cc190153c")
+		)
+		(pin "3"
+			(uuid "a245b059-06c7-4452-a4d7-2f575984d50d")
+		)
+		(instances
+			(project "remote-ems-transmitter"
+				(path "/bf945d47-61d6-4d37-a75d-36a9cc847c22"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10941,6 +11117,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 214.63 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ec58e9c-611d-4e47-97cd-59f2ab81a05e")
+		(property "Reference" "R22"
+			(at 214.63 155.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 214.63 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "648033f9-3f22-4bc0-a136-b1aad665ab39")
+		)
+		(pin "2"
+			(uuid "5e8256e0-2690-4d02-ac49-d7a6a8c6660d")
+		)
+		(instances
+			(project "remote-ems-transmitter"
+				(path "/bf945d47-61d6-4d37-a75d-36a9cc847c22"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 121.92 83.82 0)
 		(unit 1)
@@ -11001,6 +11244,75 @@
 			(project "remote-ems-transmitter"
 				(path "/bf945d47-61d6-4d37-a75d-36a9cc847c22"
 					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 154.305 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23af82d1-5b79-4ef0-b240-693f9f305d4f")
+		(property "Reference" "R21"
+			(at 207.645 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 207.645 151.765 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 205.74 156.083 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e499531f-2288-4fa4-97cf-2e450f5e3a1c")
+		)
+		(pin "2"
+			(uuid "b537ca8f-925b-476a-8c3a-806dd4e99304")
+		)
+		(instances
+			(project "remote-ems-transmitter"
+				(path "/bf945d47-61d6-4d37-a75d-36a9cc847c22"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -14864,7 +15176,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 193.04 156.21 180)
+		(at 182.245 146.685 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14872,7 +15184,7 @@
 		(dnp no)
 		(uuid "ac93266a-6565-446b-ab47-8072145b0a5e")
 		(property "Reference" "D2"
-			(at 193.04 151.892 0)
+			(at 182.245 142.367 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14880,7 +15192,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 193.04 153.67 0)
+			(at 182.245 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,7 +15200,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_FlatTop"
-			(at 193.04 156.21 0)
+			(at 182.245 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,7 +15209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 156.21 0)
+			(at 182.245 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,7 +15218,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 156.21 0)
+			(at 182.245 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16119,7 +16431,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 198.12 157.48 0)
+		(at 187.325 147.955 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16127,7 +16439,7 @@
 		(dnp no)
 		(uuid "cbeaf9f8-01f8-4269-998b-f0700522c6f8")
 		(property "Reference" "#PWR41"
-			(at 198.12 163.83 0)
+			(at 187.325 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16136,7 +16448,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 198.12 160.6296 0)
+			(at 187.325 151.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16144,7 +16456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 157.48 0)
+			(at 187.325 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,7 +16465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 157.48 0)
+			(at 187.325 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16162,7 +16474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 157.48 0)
+			(at 187.325 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16177,6 +16489,71 @@
 			(project "remote-ems-transmitter"
 				(path "/bf945d47-61d6-4d37-a75d-36a9cc847c22"
 					(reference "#PWR41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 224.79 160.655 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccf38a9c-82d9-4510-93c4-1a66f0b68737")
+		(property "Reference" "#PWR43"
+			(at 224.79 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 224.79 163.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1904dbd2-30c9-44ce-9c42-c8d7f4a04ef3")
+		)
+		(instances
+			(project "remote-ems-transmitter"
+				(path "/bf945d47-61d6-4d37-a75d-36a9cc847c22"
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
@@ -16500,7 +16877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/catalog/g/g105347/"
+		(property "Datasheet" "https://akizukidenshi.com/catalog/g/g117550/"
 			(at 142.24 137.16 0)
 			(effects
 				(font
