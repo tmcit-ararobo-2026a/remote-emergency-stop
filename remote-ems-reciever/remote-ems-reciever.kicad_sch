@@ -4299,12 +4299,6 @@
 		(uuid "49ad48ed-f8a3-40fe-b6b6-226e6bb17005")
 	)
 	(junction
-		(at 133.35 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50f7d1bf-43f6-452f-81f6-17b8ede7ab6e")
-	)
-	(junction
 		(at 243.586 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4423,6 +4417,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4a2e876-dcfc-4831-acd7-31bb5fcd0362")
+	)
+	(junction
+		(at 133.35 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f078c9e1-047e-4cf6-8654-fcc347aa89d6")
 	)
 	(junction
 		(at 64.77 21.59)
@@ -4711,6 +4711,16 @@
 			(type default)
 		)
 		(uuid "20890a27-d5db-4ce3-ae68-328a30b756c5")
+	)
+	(wire
+		(pts
+			(xy 133.35 149.86) (xy 133.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21686c5f-f2fd-4dc6-a944-76a3fa4d481d")
 	)
 	(wire
 		(pts
@@ -5604,16 +5614,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 160.02) (xy 133.35 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a737b656-fe8b-4ebd-956d-083b34875db2")
-	)
-	(wire
-		(pts
 			(xy 218.44 83.82) (xy 234.95 83.82)
 		)
 		(stroke
@@ -5741,6 +5741,16 @@
 			(type default)
 		)
 		(uuid "b7841113-f4ec-4673-8591-4a3ae532f275")
+	)
+	(wire
+		(pts
+			(xy 133.35 158.75) (xy 133.35 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ca8353-b7d9-4cfc-a447-1f0e59a0106b")
 	)
 	(wire
 		(pts
@@ -6470,7 +6480,7 @@
 	)
 	(global_label "Wio-RST"
 		(shape input)
-		(at 134.62 160.02 0)
+		(at 133.35 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6480,7 +6490,7 @@
 		)
 		(uuid "1e2498f5-fafb-462c-8b75-d2bd08cb6bcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.8299 160.02 0)
+			(at 144.5599 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,6 +10146,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 133.35 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76124fe9-53a7-4ba7-a540-4682b3d8abd3")
+		(property "Reference" "R11"
+			(at 135.89 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 135.89 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 131.572 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6694cc72-54d5-4d30-9338-26014db943cc")
+		)
+		(pin "2"
+			(uuid "25ae0d20-4155-4707-b287-3c5285b8f34c")
+		)
+		(instances
+			(project "remote-ems-reciever"
+				(path "/279d1b04-8b37-430e-b98e-03e2207b8b9f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 209.677 27.94 0)
 		(mirror y)
@@ -12210,7 +12290,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 127 160.02 180)
+		(at 127 160.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12218,7 +12299,7 @@
 		(dnp no)
 		(uuid "d5b07baa-36c6-4072-8b26-c8cd5228e43e")
 		(property "Reference" "Q1"
-			(at 121.5136 158.7499 0)
+			(at 121.5136 161.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12227,7 +12308,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 121.5136 161.2899 0)
+			(at 121.5136 158.7501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12317,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 121.92 158.115 0)
+			(at 121.92 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -10549,7 +10549,6 @@
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 222.25 154.305 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10557,7 +10556,7 @@
 		(dnp no)
 		(uuid "0bb7d4bb-1949-47f4-8fe0-e3c5f05af1e2")
 		(property "Reference" "Q2"
-			(at 227.7364 153.0349 0)
+			(at 227.33 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +10565,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 227.7364 155.5749 0)
+			(at 227.33 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10574,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 227.33 152.4 0)
+			(at 227.33 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11165,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 97.79 149.86 180)
+		(at 97.79 149.86 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11174,7 +11174,7 @@
 		(dnp no)
 		(uuid "1dc2ca6c-66bf-498f-b704-1a1a7faecaac")
 		(property "Reference" "Q1"
-			(at 92.3036 148.5899 0)
+			(at 92.71 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11183,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 92.3036 151.1299 0)
+			(at 92.71 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11192,7 +11192,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 92.71 147.955 0)
+			(at 92.71 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
